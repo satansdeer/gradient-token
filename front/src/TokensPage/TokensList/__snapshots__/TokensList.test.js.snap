@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TokensList /> renders and matches the snapshot 1`] = `
+<div
+  className="TokensList"
+>
+  <div
+    className="TokenItem"
+    onClick={undefined}
+  >
+    <div
+      className="TokenItem-label"
+    >
+      #fff – #000
+    </div>
+  </div>
+</div>
+`;
