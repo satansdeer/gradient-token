@@ -1,0 +1,27 @@
+.TokenItem {
+  cursor: pointer;
+  position: relative;
+  animation: tokenItemIn .25s cubic-bezier(.06,.67,.37,.99) forwards
+}
+
+.TokenItem:hover > .TokenItem-image_wrapper {
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 4px inset
+}
+
+.TokenItem-image_wrapper {
+  background-color: #e7dcd6;
+  border-radius: 10px;
+  padding: 40px 20px;
+  margin-bottom: 15px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px inset;
+  transition: box-shadow 0.2s;
+}
+
+.TokenItem-label {
+  text-align: left;
+}
+
+@keyframes tokenItemIn {
+  0%   { opacity: 0; transform: translateY(10px) }
+  100% { opacity: 1; transform: translateY(0) }
+}

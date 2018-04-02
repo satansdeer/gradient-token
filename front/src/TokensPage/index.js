@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "components/Button";
 import PropTypes from "prop-types";
+import TokensList from "./TokensList";
 import { inject, observer } from "mobx-react";
 import "./TokensPage.css";
 
@@ -9,7 +10,9 @@ const TokensPage = ({ gradientTokenStore: { mintToken }, children }) => {
     <div className="TokensPage">
       <h1>Gradient Tokens</h1>
       <Button onClick={mintToken} label="Mint token" />
-      <div className="TokensPage-tokens" />
+      <div className="TokensPage-tokens">
+        <TokensList />
+      </div>
     </div>
   );
 };
