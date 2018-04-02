@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TokensPage /> renders and matches the snapshot 1`] = `
+<div
+  className="TokensPage"
+>
+  <h1>
+    Gradient Tokens
+  </h1>
+  <button
+    className="Button undefined"
+    onClick={[Function]}
+  >
+    Mint token
+  </button>
+  <div
+    className="TokensPage-tokens"
+  />
+</div>
+`;
