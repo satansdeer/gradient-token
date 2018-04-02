@@ -15,6 +15,12 @@ exports[`<TokensPage /> renders and matches the snapshot 1`] = `
   </button>
   <div
     className="TokensPage-tokens"
-  />
+  >
+    <div
+      className="TokensList-label_empty"
+    >
+      You don't have tokens yet.
+    </div>
+  </div>
 </div>
 `;

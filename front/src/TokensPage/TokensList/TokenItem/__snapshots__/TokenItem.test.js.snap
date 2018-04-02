@@ -6,6 +6,39 @@ exports[`<TokenItem /> renders and matches the snapshot 1`] = `
   onClick={undefined}
 >
   <div
+    className="TokenItem-image_wrapper"
+  >
+    <svg
+      height={100}
+      version="1.1"
+      width={100}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <radialGradient
+          id="000fff"
+        >
+          <stop
+            offset="0%"
+            stopColor="#000"
+          />
+          <stop
+            offset="100%"
+            stopColor="#fff"
+          />
+        </radialGradient>
+      </defs>
+      <circle
+        cx={50}
+        cy={50}
+        fill="url(#000fff)"
+        r={46}
+        stroke="#fff"
+        strokeWidth="2"
+      />
+    </svg>
+  </div>
+  <div
     className="TokenItem-label"
   >
     #000 – #fff
