@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "mobx": "^4.1.1",
+    "mobx-react": "^5.0.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "react-test-renderer": "^16.3.0",
+    "truffle-contract": "^3.0.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start",
