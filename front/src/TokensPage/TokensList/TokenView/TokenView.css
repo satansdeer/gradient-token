@@ -1,0 +1,11 @@
+.TokenView-image_wrapper {
+  background-color: #e7dcd6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.TokenView-label {
+  text-align: left;
+  margin-bottom: 20px;
+}
