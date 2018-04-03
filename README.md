@@ -9,16 +9,36 @@ The example is greatly simplified and we don't have genetic algorythms or any al
 * [Part 2 - Adding auction](#)
 * [Part 3 - Adding basic frontend](#)
 
-## How To Run
+## How To Install Dependencies
 
-Make sure you have local node running, I recomeend using `ganache-cli`, run:
+First install required dependencies:
+
+You'll need local ethereum node, I recommend `ganache-cli`. You can install it from `npm`.
 
 ```sh
 npm install -g ganache-cli
-ganache-cli -p 7545
 ```
 
-First install contracts dependencies, run `yarn install`.
+Then install contract dependencies:
+
+```
+yarn install
+```
+
+To install frontend dependencies go to `front` folder and run `yarn install` from there:
+
+```sh
+cd front
+yarn install
+```
+
+## How To Test
+
+First make sure that local ethereum node is running. Execute:
+
+```sh
+ganache-cli -p 7545
+```
 
 Now you can compile and deploy contracts:
 
@@ -26,16 +46,45 @@ Now you can compile and deploy contracts:
 truffle compile && truffle migrate
 ```
 
-Now you can run `truffle test` to run the tests for contracts.
+Run contract tests:
 
-Now prepare the frontend:
+```sh
+truffle test
+```
+
+Switch to `front` directory and run frontend tests as well:
 
 ```sh
 cd front
-yarn install
 yarn test
 ```
 
 Tests should pass.
 
-Run `yarn start` to run frontend.
+
+## How To Test
+
+Make sure that you have local ethereum node running:
+
+```sh
+ganache-cli -p 7545
+```
+
+And contracts deployed:
+
+```sh
+truffle compile && truffle migrate
+```
+
+If everything is fine – run the frontend:
+
+```sh
+cd front
+yarn start
+```
+
+You can remove all minted tokens by migrating your contract again:
+
+```sh
+truffle migrate --reset
+```
