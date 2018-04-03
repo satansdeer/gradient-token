@@ -9,7 +9,10 @@ describe("<TokensPage />", () => {
     mintToken: jest.fn(),
     tokens: []
   };
-  const stores = { gradientTokenStore };
+  const modalStore = {
+    showModal: jest.fn()
+  };
+  const stores = { gradientTokenStore, modalStore };
 
   it("renders and matches the snapshot", () => {
     const component = renderer.create(

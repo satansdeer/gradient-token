@@ -6,7 +6,7 @@ exports[`<TokensList /> renders and matches the snapshot 1`] = `
 >
   <div
     className="TokenItem"
-    onClick={undefined}
+    onClick={[Function]}
   >
     <div
       className="TokenItem-image_wrapper"
