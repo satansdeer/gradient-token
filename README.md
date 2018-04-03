@@ -62,7 +62,7 @@ yarn test
 Tests should pass.
 
 
-## How To Test
+## How To Run
 
 Make sure that you have local ethereum node running:
 
@@ -82,6 +82,10 @@ If everything is fine – run the frontend:
 cd front
 yarn start
 ```
+
+You should see the following:
+
+<img width="930" alt="screenshot" src="https://user-images.githubusercontent.com/450319/38230295-c8c03718-3715-11e8-982b-9561378ba1a8.png">
 
 You can remove all minted tokens by migrating your contract again:
 
