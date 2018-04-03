@@ -1,8 +1,12 @@
 # Gradient Token Tutorial
 
-This repo is an example for series of article on [my blog](http://maksimivanov.com) about non-fungible token, where we were doing CryptoKitties clone.
+This repo is an example for [my blog](http://maksimivanov.com) series about non-fungible token, where we were doing CryptoKitties clone.
 
 The example is greatly simplified and we don't have genetic algorythms or any algorythms for breeding.
+
+The final application will look somewhat like this:
+
+<img width="1130" alt="screen shot 2018-04-03 at 08 07 30" src="https://user-images.githubusercontent.com/450319/38230362-257b3cd2-3716-11e8-8d99-285b30f69924.png">
 
 ## Contents:
 * [Part 1 - Creatng the token](http://maksimivanov.com/posts/gradient-coin-tutorial)
