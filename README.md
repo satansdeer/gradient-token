@@ -9,9 +9,9 @@ The final application will look somewhat like this:
 <img width="1130" alt="screen shot 2018-04-03 at 08 07 30" src="https://user-images.githubusercontent.com/450319/38230362-257b3cd2-3716-11e8-8d99-285b30f69924.png">
 
 ## Contents:
-* [Part 1 - Creatng the token](http://maksimivanov.com/posts/gradient-coin-tutorial)
-* [Part 2 - Adding auction](#)
-* [Part 3 - Adding basic frontend](#)
+* [Part 1 - Creating the token](http://maksimivanov.com/posts/gradient-coin-tutorial)
+* [Part 2 - Adding auction](http://maksimivanov.com/posts/gradient-coin-tutorial-part-2)
+* [Part 3 - Adding basic frontend](http://maksimivanov.com/posts/gradient-coin-tutorial-part-3)
 
 ## How To Install Dependencies
 
