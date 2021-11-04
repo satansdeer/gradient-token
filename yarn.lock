@@ -875,9 +875,10 @@ trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
-zeppelin-solidity@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/zeppelin-solidity/-/zeppelin-solidity-1.7.0.tgz#c43332926b6e84a845015c21753064eeac054df0"
+zeppelin-solidity@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/zeppelin-solidity/-/zeppelin-solidity-1.8.0.tgz#049fcde7daea9fc85210f8c6db9f8cd1ab8a853a"
+  integrity sha512-7Mxq6Y7EES0PSLrRF6v0EVYqBVRRo8hFrr7m3jEs69VbbQ5kpANzizeEdbP1/PWKSOmBOg208qP2vSA0FlzFLA==
   dependencies:
     dotenv "^4.0.0"
     ethjs-abi "^0.2.1"

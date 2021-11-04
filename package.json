@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "zeppelin-solidity": "1.7.0"
+    "zeppelin-solidity": "1.8.0"
   },
   "devDependencies": {
     "babel-polyfill": "^6.23.0",
